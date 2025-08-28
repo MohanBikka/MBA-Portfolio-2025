@@ -126,3 +126,10 @@ I am passionate about data-driven decision-making, predictive analytics, and mac
 
 <!-- Bottom Contact Button -->
 <a href="contact.qmd" class="contact-button-bottom">Contact Me</a>
+<!-- Navigation Buttons -->
+<div class="nav-buttons" style="text-align:center; margin-top:30px;">
+  <a href="resume.html" style="padding:12px 25px; background-color:#001f3f; color:white; text-decoration:none; margin:5px; border-radius:5px;">View Resume</a>
+  <a href="projects.html" style="padding:12px 25px; background-color:#001f3f; color:white; text-decoration:none; margin:5px; border-radius:5px;">My Projects</a>
+  <a href="skills.html" style="padding:12px 25px; background-color:#001f3f; color:white; text-decoration:none; margin:5px; border-radius:5px;">Skills & Certifications</a>
+  <a href="contact.html" style="padding:12px 25px; background-color:#001f3f; color:white; text-decoration:none; margin:5px; border-radius:5px;">Contact Me</a>
+</div>

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>index</title>
+<title>Projects</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,21 +23,20 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="Index_files/libs/clipboard/clipboard.min.js"></script>
-<script src="Index_files/libs/quarto-html/quarto.js" type="module"></script>
-<script src="Index_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="Index_files/libs/quarto-html/popper.min.js"></script>
-<script src="Index_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="Index_files/libs/quarto-html/anchor.min.js"></script>
-<link href="Index_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="Index_files/libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="Index_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="Index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="Index_files/libs/bootstrap/bootstrap-8a894fcc3cb5e37eb5bf30def131be2f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="projects_files/libs/clipboard/clipboard.min.js"></script>
+<script src="projects_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="projects_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="projects_files/libs/quarto-html/popper.min.js"></script>
+<script src="projects_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="projects_files/libs/quarto-html/anchor.min.js"></script>
+<link href="projects_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="projects_files/libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="projects_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="projects_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="projects_files/libs/bootstrap/bootstrap-8a894fcc3cb5e37eb5bf30def131be2f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
 
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="styles.scss">
 </head>
 
 <body class="fullcontent quarto-light">
@@ -46,136 +45,110 @@ ul.task-list li input[type="checkbox"] {
 
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Projects</h1>
+</div>
 
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 <style>
+/* Page background */
 body {
+  background-color: #d9d9d9; /* grey corners */
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 20px 0;
 }
 
-/* Top Profile Section - Light Gray */
-.cover {
-  background-color: #D3D3D3; /* light gray */
-  text-align: center;
-  padding: 60px 20px;
-}
-
-/* Profile Photo */
-.profile-photo {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 15px;
-  border: 4px solid #ffffff; /* white border around photo */
-}
-
-.cover h1 {
-  font-size: 38px;
-  margin: 10px 0;
-  color: #000;
-}
-
-.cover p {
-  font-size: 18px;
-  margin-bottom: 20px;
-  color: #000;
-}
-
-/* Top Button (Resume) */
-.cover .resume-button {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 10px 20px;
-  background-color: #0077b6; /* navy blue */
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-}
-
-/* Left-aligned sections - Navy Blue background, White text */
-.main-content {
-  max-width: 700px;
-  margin: 0 auto;
-  line-height: 1.6;
-  padding: 40px 20px;
-  color: #ffffff;
+/* Content box */
+.container {
   background-color: #001f3f; /* navy blue */
-  border-radius: 10px;
-  margin-bottom: 30px;
+  color: white;
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
 }
 
-/* Section Headings */
-.main-content h2 {
-  margin-top: 0;
-  margin-bottom: 15px;
-  font-size: 22px;
-  border-bottom: 1px solid #ffffff;
-  padding-bottom: 5px;
-  color: #ffffff;
-}
-
-/* Bottom Contact Button */
-.contact-button-bottom {
-  display: block;
-  width: 200px;
-  margin: 30px auto 60px auto;
-  padding: 12px 25px;
-  background-color: #0077b6; /* navy blue */
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
+/* Centered main title */
+h1 {
   text-align: center;
+  font-size: 42px;
   font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* Project sections */
+.project {
+  margin-bottom: 18px;
+}
+
+.project h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: white; /* project name */
+  margin-bottom: 6px;
+}
+
+.project p {
+  color: white; /* project description */
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.project a {
+  color: white;
+  text-decoration: underline;
 }
 </style>
-<!-- Top Profile Section -->
-<div class="cover">
-<img src="K Mohan profile photo.jpeg" alt="K Mohan Profile Photo" class="profile-photo">
-<h1>
-K Mohan
-</h1>
+<div class="container">
+<div class="project">
+<h3 class="anchored">
+<a href="https://learningspace.myucw.ca/d2l/lms/dropbox/user/folders_history.d2l?db=185580&amp;grpid=0&amp;isprv=0&amp;bp=0&amp;ou=97878" target="_blank">Netflix Advertising Campaign Analysis</a>
+</h3>
 <p>
-MBA Student | Aspiring Data Analyst | Passionate about Machine Learning
+This project involved a strategic analysis of a Netflix advertising campaign, utilizing key frameworks to evaluate its effectiveness. I conducted a SWOT analysis to understand the campaign’s internal and external factors, and a PESTLE analysis to assess the broader market environment. I also applied elements of the McKinsey 7S Framework to evaluate the internal alignment of the campaign’s strategy. This comprehensive assessment provided data-driven insights and strategic recommendations for future marketing initiatives.
 </p>
-<p><a href="resume.qmd" class="My Projects-button"></a><a href="projects.html" class="btn">My Projects</a></p>
 </div>
-<!-- About My Journey -->
-<section id="about-my-journey" class="level2 main-content">
-<h2 class="anchored" data-anchor-id="about-my-journey">About My Journey</h2>
-<p>Hi! I am an MBA student at University Canada West with hands-on experience in customer service and security dispatching. My journey has helped me develop strong analytical and communication skills.</p>
-</section>
-<!-- What I Do Currently -->
-<section id="what-i-do-currently" class="level2 main-content">
-<h2 class="anchored" data-anchor-id="what-i-do-currently">What I Do Currently</h2>
-<p>I am currently focusing on mastering data analytics tools like SQL, Tableau, and Python, while gaining practical experience through part-time roles and projects in analytics.</p>
-</section>
-<!-- Core Competencies -->
-<section id="core-competencies" class="level2 main-content">
-<h2 class="anchored" data-anchor-id="core-competencies">Core Competencies</h2>
-<ul>
-<li>Data Analysis &amp; Visualization<br>
-</li>
-<li>SQL, Tableau, Excel<br>
-</li>
-<li>Python<br>
-</li>
-<li>Business Communication &amp; Teamwork</li>
-</ul>
-</section>
-<!-- Current Focus -->
-<section id="current-focus" class="level2 main-content">
-<h2 class="anchored" data-anchor-id="current-focus">Current Focus</h2>
-<p>I am passionate about data-driven decision-making, predictive analytics, and machine learning. My goal is to work as a data analyst in an MNC company after graduation and contribute to impactful business insights.</p>
-</section>
-<!-- Bottom Contact Button -->
-<a href="contact.qmd" class="contact-button-bottom">Contact Me</a> <!-- Navigation Buttons -->
-<div class="nav-buttons" style="text-align:center; margin-top:30px;">
-<p><a href="resume.html" style="padding:12px 25px; background-color:#001f3f; color:white; text-decoration:none; margin:5px; border-radius:5px;">View Resume</a> <a href="projects.html" style="padding:12px 25px; background-color:#001f3f; color:white; text-decoration:none; margin:5px; border-radius:5px;">My Projects</a> <a href="skills.html" style="padding:12px 25px; background-color:#001f3f; color:white; text-decoration:none; margin:5px; border-radius:5px;">Skills &amp; Certifications</a> <a href="contact.html" style="padding:12px 25px; background-color:#001f3f; color:white; text-decoration:none; margin:5px; border-radius:5px;">Contact Me</a></p>
+<div class="project">
+<h3 class="anchored">
+<a href="https://play.marketplace-simulation.com/mpl/web7/engine.php?tpl=student&amp;resource=welcome-to-marketplace&amp;tab=story&amp;quarter=6&amp;language=en-us" target="_blank">Market Simulation Project</a>
+</h3>
+<p>
+In this project, I managed a digital computer manufacturing company within a market simulation. My role involved making strategic decisions across various business functions—from production and marketing to finance and sales—to compete against rival firms in multiple regional markets. I analyzed market data, adjusted pricing and product features, and optimized resource allocation to drive profitability and secure a competitive advantage. This experience provided practical, hands-on knowledge in small business management, highlighting the direct impact of strategic choices on a company’s performance.
+</p>
+</div>
+<div class="project">
+<h3 class="anchored">
+<a href="https://learningspace.myucw.ca/d2l/lms/dropbox/user/folders_history.d2l?db=153449&amp;grpid=0&amp;isprv=0&amp;bp=0&amp;ou=81106" target="_blank">Machine Learning Algorithms Project</a>
+</h3>
+<p>
+In this project, I utilized machine learning algorithms to analyze a dataset and build a predictive model. I began by performing data preprocessing to clean and prepare the data for analysis. I then selected and implemented appropriate machine learning models, such as linear regression or classification algorithms, to solve a specific problem, such as predicting customer churn or forecasting sales. I evaluated the performance of each model using key metrics and tuned the parameters to optimize their accuracy. The project demonstrates my ability to apply machine learning principles from data preparation to model deployment and evaluation.
+</p>
+</div>
+<div class="project">
+<h3 class="anchored">
+<a href="https://learningspace.myucw.ca/d2l/lms/dropbox/user/folders_history.d2l?db=99434&amp;grpid=0&amp;isprv=0&amp;bp=0&amp;ou=51142" target="_blank">SQL Database Project</a>
+</h3>
+<p>
+For this project, I designed, built, and queried a SQL database to analyze political donations in Great Britain and Northern Ireland. I began by creating the database schema, defining tables, and establishing relationships to ensure data integrity. After loading the dataset, I used Structured Query Language (SQL) to perform complex queries to identify key trends, such as donation patterns over time, the distribution of funds by political party, and contributions from various regions. The final deliverable was a comprehensive report and a set of query results that provided data-driven insights to inform strategic decisions. This project showcases my proficiency in database management and my ability to translate raw data into actionable business intelligence.
+</p>
+</div>
 </div>
 
 </main>

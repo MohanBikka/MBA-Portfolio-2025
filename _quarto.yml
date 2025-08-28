@@ -1,5 +1,7 @@
-project:
-  title: "MBA-Portfolio"
+format:
+  html:
+    theme: cosmo
+    css: style.css
 
 
 
